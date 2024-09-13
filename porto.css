@@ -1,0 +1,107 @@
+body{
+    background-color: whitesmoke;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    background-color: lightseagreen;
+    height: 50px;
+    z-index: 1;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+h1{
+    margin-left: 30px;
+}
+
+.part1{
+    margin-left:15%;
+}
+.text1{
+    width: 80%;
+    height: 100px;
+    background-color: white;  
+    text-align: center;
+    align-content: center;
+}
+.sec1{
+    width: 80%;
+    height: 230px;
+    background-color: white;
+}
+.s1{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    
+}
+.pic{
+    width: 250px;
+    height: 150px;
+    border-radius: 50%;
+}
+.part2{
+    background-color: white;
+    width: 80%;
+    height: 230px;
+    
+}
+.part3{
+    background-color: white;
+    width: 80%;
+    
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    gap:30px;
+    height: 500px;
+    margin-left: 30px;
+    
+
+}
+.pic1{
+    background-color: lightseagreen;
+    width: 350px;
+    height: 200px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 20px;
+}
+.grid{
+    display: grid;
+    margin-left: 30px;
+}
+.part4{
+    background-color: white;
+    width: 80%;
+}
+input{
+    width: 70%;
+    height: 35px;
+}
+textarea{
+    width: 70%;
+    height: 45px;
+}
+button{
+    margin-left: 30px;
+    padding: 10px ;
+    border-radius: 10px;
+    border: green;
+    background-color: green;
+    color: white;
+}
+footer{
+    display: flex;
+    background-color: lightseagreen;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
